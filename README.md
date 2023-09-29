@@ -19,28 +19,9 @@ We thus introduce the Spatial-Temporal Pre-Training model, STPT, to generate rob
 
 ## Usage
 - Execute ```pretrain/main.py``` to train STPT.
+- Execute ```finetune/classification/train.py``` to fine-tune the classification task.
+- Execute ```finetune/seek_serve/train_ss.py``` to fine-tune the seeking and serving identification task.
 
-
-<!-- ## File structure and description
-```
-ST-Siamese-Attack
-
------------------------------------
-pretrain/main.py                       # Main file: train self-supervised pre-training task
-
-fast_adversarial_train.py              # Main file:
-                                         Fast ST-FGSM adversarial train
------------------------------------
-data_generation.ipynb                  # Generate data for siamese
-classification_data_generation.ipynb   # Generate data for classification -->
-
-<!-- ----------------------------------- -->
-<!-- argument.py                            # Argument script
-utils.py                               # Utility script
-dataset                                # Dataset folder
-│   ├── ...
-models                                 # Model folder
-│   ├── ...
 README -->
 ``` -->
 
