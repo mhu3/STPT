@@ -22,6 +22,5 @@ We thus introduce the Spatial-Temporal Pre-Training model, STPT, to generate rob
 - Execute ```finetune/classification/train.py``` to fine-tune the classification task.
 - Execute ```finetune/seek_serve/train_ss.py``` to fine-tune the seeking and serving identification task.
 
-README -->
 ``` -->
 
