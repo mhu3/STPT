@@ -26,7 +26,7 @@ We thus introduce the Spatial-Temporal Pre-Training model, STPT, to generate rob
 ST-Siamese-Attack
 
 -----------------------------------
-train.py                               # Main file: train siamese
+pretrain/main.py                       # Main file: train self-supervised pre-training task
 
 fast_adversarial_train.py              # Main file:
                                          Fast ST-FGSM adversarial train
