@@ -6,7 +6,7 @@ Such a model extracts knowledge from diverse HSTD (\eg, GPS traces, transportati
 We thus introduce the Spatial-Temporal Pre-Training model, STPT, to generate robust and generic representations from HSTD using our novel self-supervised learning approach.
 
 <p align="center">
-<img src="/resource/framework4.pdf" alt=STPT framework" height="350">
+<img src="/resource/framework.png" alt=STPT framework" height="350">
 </p>
 
 
