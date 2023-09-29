@@ -18,7 +18,7 @@ We thus introduce the Spatial-Temporal Pre-Training model, STPT, to generate rob
 
 
 ## Usage
-- Execute ```python train.py``` to train ST-siamese model.
+- Execute ```pretrain/main.py``` to train STPT.
 
 
 <!-- ## File structure and description
