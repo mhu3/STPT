@@ -9,9 +9,8 @@ Such a model extracts knowledge from diverse HSTD (\eg, GPS traces, transportati
 
 
 ## Prerequisites
-- [Python 3.9.12](https://www.continuum.io/downloads)
-- [Keras 2.10.0](https://keras.io/)
-- [Tensorflow 2.10.1](https://www.tensorflow.org/)
+- [Python 3.10.9](https://www.continuum.io/downloads)
+- [Pytorch 1.12.1](https://pytorch.org/)
 - GPU for fast training
 
 
