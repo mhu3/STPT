@@ -55,23 +55,6 @@ class SimpleCNN(nn.Module):
     def __init__(self, input_size):
         super(SimpleCNN, self).__init__()
         self.input_size = input_size
-        
-        # self.conv = nn.Sequential(
-        #     # nn.Conv1d(input_size, 640, 4),
-        #     nn.Conv1d(input_size, 896, 4),
-        #     nn.Dropout(0.1),
-        #     nn.ReLU(),
-        #     nn.MaxPool1d(4),
-        #     nn.Conv1d(896, 256, 4),
-        #     nn.Dropout(0.1),
-        #     nn.ReLU(),
-        #     nn.MaxPool1d(4),
-        #     nn.Conv1d(256, 128, 4),
-        #     nn.Dropout(0.2),
-        #     nn.ReLU(),
-        #     nn.MaxPool1d(4),
-        #     nn.AdaptiveAvgPool1d(1)
-        # )
         self.conv = nn.Sequential(
             nn.Conv1d(input_size, 640, 4),
             nn.Dropout(0.2),
